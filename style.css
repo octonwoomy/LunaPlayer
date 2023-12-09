@@ -1,0 +1,46 @@
+body {
+    font-family: "Tahoma";
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.cover{
+    width: 250px;
+    height: 250px;
+}
+.card {
+    width: 500px;
+    height: 700px;
+    border: 10px solid white;
+    filter: drop-shadow(20px 1px black);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.cover{
+    margin-bottom: 20px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons i{
+    font-size: 20px;
+}
+.buttons button{
+    background: none;
+    border: none;
+}
+.buttons input{
+    margin-bottom: 5px;
+}
+.slider{
+    font-size: 20px;
+    filter: drop-shadow(7px 1px black);
+}
